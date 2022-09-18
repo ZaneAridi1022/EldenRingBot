@@ -1,9 +1,10 @@
 { pkgs }: {
-  deps = [ pkgs.python38Full
+  deps = [
+    pkgs.python38Full
   ];
   env = {
     PYTHON_LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [
-      # Neded for pandas / numpy
+      # Needed for pandas / numpy
       pkgs.stdenv.cc.cc.lib
       pkgs.zlib
       # Needed for pygame
