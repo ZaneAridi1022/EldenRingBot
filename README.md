@@ -3,3 +3,5 @@ It allows users to track how many kills they have had facing other players on th
 As they log more kills they gain better ranks in the discord server.
 
 I was also building out functionality to track what items have been collected in the game as well as what items a player would be missing.
+
+I kept the website hosted by pining the api from another site.
